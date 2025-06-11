@@ -1,0 +1,176 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shri Krishna - A Devotional Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            font-family: 'Orbitron', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #00bfff; /* Cyan/Aqua color */
+            line-height: 1.6;
+            overflow-x: hidden; /* Prevent horizontal scroll */
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.8);
+            color: #00bfff;
+            padding: 2em 0;
+            text-align: center;
+            border-bottom: 1px solid #0080ff; /* Darker blue border */
+        }
+
+        nav {
+            background-color: rgba(0, 0, 0, 0.9);
+            color: #00bfff;
+            padding: 0.5em 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: #00bfff;
+            text-decoration: none;
+            padding: 0.5em 1em;
+            display: inline-block;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #007fff; /* Darker blue on hover */
+        }
+
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 191, 255, 0.3); /* Cyan glow effect */
+            border-radius: 8px;
+        }
+
+        section {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 2.5em;
+            margin-bottom: 15px;
+            color: #00bfff;
+        }
+
+        .image-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .image-gallery img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 191, 255, 0.2); /* Subtle cyan glow */
+            transition: transform 0.3s ease; /* Add transition for hover effect */
+        }
+
+        .image-gallery img:hover {
+            transform: scale(1.1); /* Scale image on hover */
+        }
+
+        footer {
+            background-color: rgba(0, 0, 0, 0.8);
+            color: #00bfff;
+            text-align: center;
+            padding: 1em 0;
+            border-top: 1px solid #0080ff;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                width: 95%;
+            }
+
+            nav a {
+                display: block;
+                text-align: center;
+                padding: 0.5em;
+            }
+
+            .image-gallery img {
+                width: 150px;
+                height: 150px;
+            }
+        }
+
+        /* Sci-Fi Background (Optional) */
+        body {
+            background-image: url('https://images.unsplash.com/photo-1506318137072-493a41e8e51a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80');
+            background-size: cover;
+            background-blend-mode: overlay;
+        }
+
+        /* Font Import */
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>जय श्री कृष्णा</h1>
+        <p>A Cosmic Offering to the Divine</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Krishna</a>
+        <a href="#gallery">Cosmic Gallery</a>
+        <a href="#bhajans">Celestial Bhajans</a>
+        <a href="#contact">Hyperspace Contact</a>
+    </nav>
+
+    <div class="container">
+        <section id="about">
+            <h2>About Lord Krishna</h2>
+            <p>In the vast expanse of the cosmos, Krishna emerges as a beacon of compassion and divine love. Revered as the eighth avatar of Vishnu, Krishna's essence transcends the boundaries of space and time, offering solace and guidance to all sentient beings.</p>
+        </section>
+
+        <section id="gallery">
+            <h2>Cosmic Gallery</h2>
+            <div class="image-gallery">
+                <img src="https://res.cloudinary.com/doa7uz2ml/image/upload/v1749627568/twc7e9dg78tbd92pkbgn.jpg" alt="Krishna Image 1">
+                <img src="https://res.cloudinary.com/doa7uz2ml/image/upload/v1749627568/twc7e9dg78tbd92pkbgn.jpg" alt="Krishna Image 2">
+                <img src="https://res.cloudinary.com/doa7uz2ml/image/upload/v1749627568/twc7e9dg78tbd92pkbgn.jpg" alt="Krishna Image 3">
+                <img src="https://res.cloudinary.com/doa7uz2ml/image/upload/v1749627568/twc7e9dg78tbd92pkbgn.jpg" alt="Krishna Image 4">
+            </div>
+        </section>
+
+        <section id="bhajans">
+            <h2>Celestial Bhajans</h2>
+            <p>Experience the divine resonance of Krishna's bhajans, echoing through the galaxies.</p>
+            <audio controls>
+                <source src="your-bhajan.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+
+        <section id="contact">
+            <h2>Hyperspace Contact</h2>
+            <p>Reach out through the cosmic channels for any inquiries or spiritual guidance.</p>
+            <p>Email: contact@shrikrishna.com</p>
+        </section>
+    </div>
+
+    <footer>
+        &copy; 2023 Shri Krishna Devotional Website - Across the Universe
+    </footer>
+
+</body>
+</html>
+```
